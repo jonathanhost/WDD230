@@ -3,7 +3,8 @@
    
 
     header{
-        color: black;
+    
+        color: rgb(255, 255, 255);
         
     }
 
@@ -37,7 +38,9 @@
         grid-column: 3;
         
     }
+
     .content{
-        padding-bottom: 16.6%;
+        background-color:#DEEFE7;
+
     }
 }
