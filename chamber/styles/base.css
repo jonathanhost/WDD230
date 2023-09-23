@@ -216,7 +216,7 @@ footer{
 
 .events div{
     padding-bottom: 3rem;
-    border-left: 1px solid #1B263B;
+    border-bottom: 1px solid white;
 }
 .events img{
  max-width: 60%;
@@ -226,7 +226,7 @@ footer{
 .events-title{
     text-align: center;
     padding-bottom: 3rem;
-    border-bottom: 1px solid #1B263B;
+    border-bottom: 1px solid white;
 }
 
 table{
@@ -237,7 +237,7 @@ table td{
    padding-right: 3rem;
 }
 .wheater, .wheater h3{
-    color: #1B263B;
+    color: white;
     background-color:#778DA9;
     padding-bottom: 5rem;
   
