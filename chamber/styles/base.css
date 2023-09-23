@@ -1,0 +1,288 @@
+body, html {
+        height: 100%;
+    }
+    
+    body{
+    background-color: rgb(19,27,35);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Geneva, Tahoma, sans-serif;
+}
+
+#avatar{
+    max-width: 200px;
+    margin: 20px;
+    
+}
+
+
+nav{
+
+    grid-column: 1/3;
+    grid-template-columns: auto;
+
+}
+    
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid rgba(0,0,0,.3);
+    padding: 3px 7px 6px;
+    background-color: #eee;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    color: #000;
+    top: 3rem;
+    right: 1rem;
+}
+    
+#menu::before {
+    content: "☰";
+}
+    
+#menu.open::before {
+    content: '✖';
+}
+    
+.navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #fff;
+}
+    .navigation li {
+        display: none;
+    }
+    .navigation li a {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    /* when the button is clicked - the open class is toggle (added/removed) and accounted for here */
+    .open li {
+        display: block;
+        width: 100%;
+    }
+    .open li a {
+        display: block;
+    }
+    
+    
+    .active {
+        background-color: #1B263B;
+    }   
+    nav li:hover{
+        background-color: #778DA9;
+
+    }
+
+    /* The hero image */
+    .hero-image {
+        /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/florianopolis-ile-de-santa-catarina.jpg");
+      
+        /* Set a specific height */
+        height: 70%;
+      
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
+      }
+      
+      /* Place text in the middle of the image */
+      .hero-text {
+        font-size: x-large;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+      }
+    
+
+    
+#name{
+    padding-top: 6rem;
+    margin: auto;
+    text-align: center;
+}
+
+.title { 
+    text-align: center;
+    color: #07232c;
+    border-bottom: 1px solid rgb(175, 167, 167);
+
+    
+}
+
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+
+}
+
+nav a{
+    color: white;
+    grid-column: 2;
+    text-decoration: none;
+    font-size:x-large;
+    text-align: center;
+    width: 100%;
+   
+
+
+}
+
+
+.card{
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color:#DEEFE7;;
+}
+
+.card h3{
+    background-color: rgb(19,27,35);
+   color: #DEEFE7;
+   margin-top: 0;
+   padding: 20px;
+}
+
+
+
+.card ul{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: start;
+    background-color: #DEEFE7
+}
+
+.card li{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+header{
+    background-color: rgb(19,27,35);
+    display: grid;
+    grid-template-columns: 30% auto;
+    color: #DEEFE7;
+    max-width: 100%;
+
+    
+}
+.content{
+    padding: 10px;
+    background-color: #DEEFE7;
+}
+
+footer{
+    color: white;
+    background-color: rgb(19,27,35);
+    padding:5px;
+    text-align: center;
+}
+
+#flag{
+    width: 50px;
+}
+
+.events{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(19,27,35);
+   
+}
+
+.events div{
+    padding-bottom: 3rem;
+    border-left: 1px solid #1B263B;
+}
+.events img{
+ max-width: 60%;
+ 
+}
+
+.events-title{
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #1B263B;
+}
+
+table{
+    font-size: larger;
+    margin: 0 auto;
+}
+table td{
+   padding-right: 3rem;
+}
+.wheater, .wheater h3{
+    color: #1B263B;
+    background-color:#778DA9;
+    padding-bottom: 5rem;
+  
+}
+.card{
+    background-color: #778DA9;
+}
+.checked {
+    color: orange;
+  }
+.spotlights{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+.rating{
+    padding: 4rem 6rem;
+    background-color: white;
+    color: #1B263B;
+}
+.footer{
+    background-color: rgb(19,27,35);
+}
+.footer-card{
+    padding-top: 3rem;
+    background-color: rgb(19,27,35);
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content:center
+}
+footer img{
+    grid-template-columns: 1;
+    max-width: 40%;
+}
+
+.information{
+    background-color: rgb(19,27,35);
+}
+
+
+
+
+
+
+ 
+
