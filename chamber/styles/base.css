@@ -271,7 +271,6 @@ table td{
     justify-content:center
 }
 footer img{
-    grid-template-columns: 1;
     max-width: 40%;
 }
 
