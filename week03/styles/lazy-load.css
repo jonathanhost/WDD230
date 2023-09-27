@@ -1,0 +1,25 @@
+main{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+picture{
+    padding-left: 1rem;
+}
+img{
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    animation: fade 15s;
+
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
