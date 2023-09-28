@@ -8,6 +8,10 @@
         
     }
 
+    #menu{
+        display: none;
+    }
+
     #avatar{
             max-width: 150px;
             margin-left: 60%;
@@ -15,6 +19,38 @@
     }
     #name{
         margin-right: 50%;
+    }
+
+    .navigation {
+        display: block;
+        flex-direction: column;
+        list-style: none;
+        color: #fff;
+    }
+    .navigation li {
+        display: block;
+    }
+    .navigation li a {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+    nav{
+        margin-bottom: 4rem;
+    }
+
+    nav li{
+        margin-top: 5%;
+        position:relative;
+        float:left;
+        width:20%;
+
+    }
+    nav li:hover{
+        background-color: #778DA9;
+
     }
 
     nav li{
@@ -43,4 +79,10 @@
         background-color:#DEEFE7;
 
     }
+
+    img {
+        margin-left: 40%;
+        width: 40%;
+        height: auto;
+      }
 }

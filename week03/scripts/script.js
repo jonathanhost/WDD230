@@ -11,7 +11,7 @@ chaptersArray.forEach(chapter => {
 function displayList(item){
     const li = document.createElement('li');
     const deleteButton = document.createElement('button');
-    li.textContent= item;
+    li.textContent = item;
     deleteButton.textContent = '❌';
     li.append(deleteButton);
     list.append(li);
@@ -23,7 +23,6 @@ function displayList(item){
         input.focus();
     });
     input.focus();
-    input.value = '';
 }
 
 function setChapterList(){
