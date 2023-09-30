@@ -14,7 +14,6 @@ if (numVisits !== 0)
 	}
 	else
 	{
-		console.log(difference)
 		if(days <= 172800000)
 		{
 			visitsDisplay.textContent = `You last visited 1 day ago.`;
