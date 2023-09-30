@@ -132,7 +132,23 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-content:center
     }
+
+    .discover{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
    
+    .images{
+        grid-column: 2/4;
+        width: 100%;
+    
+      }
+    
+      .images img{
+        margin-bottom: 5%;
+    
+      }
+    
    
 
 }
