@@ -21,7 +21,7 @@ if (numVisits !== 0)
 		else
 		{
 			let difference = days / 86400000;
-			visitsDisplay.textContent = `You last visited ${difference} dayy ago.`;
+			visitsDisplay.textContent = `You last visited ${difference} days ago.`;
 
 		}
 	}
