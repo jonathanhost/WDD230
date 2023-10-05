@@ -1,0 +1,49 @@
+:root{
+    font-size: x-large;
+
+    
+}
+
+tbody tr:nth-child(odd) {
+    
+	background-color: rgb(214, 208, 208);
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+      font-size: .85rem;
+  }
+
+  th{
+    text-align: center;
+    padding: 30px;
+    
+  }
+  td{
+    text-align: center;
+    padding: 10px;
+    
+  }
+
+  thead {
+    
+    background-color: black;
+    color: white;
+    padding: 100px;
+  }
+
+  #empty{
+    border: 0;
+    background-color: black;
+    color: white;
+
+  }
+
+  #header{
+    background-color: rgb(43, 43, 43);
+
+ 
+  }
+
+ 
