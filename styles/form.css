@@ -1,36 +1,34 @@
 :root{
-    font-size: 1rem;
-    margin: auto;
-    -moz-box-sizing: border-box;
-     -webkit-box-sizing: border-box; 
-     box-sizing: border-box;
+    --main-color: #002333;
+  --display: block;
+  --second-color: #445ba9;
 }
 
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid var(--second-color);
     border-radius: 10px;
     padding: .5rem 2%;
     
 }
 
 form legend {
-    color: #445ba9;
+    color: var(--second-color);
     margin: 0 1rem;
     padding: 0 .5rem;
     
 }
 
 form label.top, form div{
-    display: block;
+    display: var(--display);
     padding: 1rem;
-    color: #002333;
+    color:var(--main-color);
     font-size: 1.2rem;
 }
 
 form label.top input, form label.top select {
-    display: block;
+    display: var(--display);
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
@@ -46,7 +44,7 @@ form label.top input, form label.top select {
 
 form input.submitBtn{
     border: none;
-    background-color: #002333;
+    background-color: var(--main-color);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
