@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Jonathan Almeida">
+    <meta property="og:title" content="WDD 230 - Web Frontend Developmen">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jonathanhost.github.io/wdd230/">
+    <meta property="og:image" content="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-florianopolis-capa2019-01.jpg" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon.ico">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Jonathan Almeida - WDD 230 - Web Frontend Development</title>
+  </head>
+  <body>
+  <header>
+    <img id="avatar" src="images/jonathan.png" alt="">
+    <h1 id="name">Jonathan de Almeida</h1>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li><a href="">Chamber</a></li>
+        <li><a href="">Site Plan</a></li>
+        <li><a href="">Form</a></li>
+      </ul>
+    </nav>    
+  </header>
+  <main>
+    <div id="formmessage"></div>
+    <h1 id="form-title">Website Rating</h1>
+        <form method="get" action="record.html">
+            <fieldset>
+                <legend>Rating form</legend>
+                <label class="top">Username* <input type="text" name="username" id="username" required></label>
+                <label class="top">Password* <input type="password" name="password" id="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" placeholder="At least eight characters long." required></label>
+                <label class="top">Password* <input type="password" name="passwordrept" id="passwordrept"  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required></label>
+                <label class="top">Email* <input type="email" id="email" name="email" pattern="^[a-zA-Z0-9._%+-]+@byui\.edu$" required ></label>
+                
+                <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                <div id="rangevalue">0</div>
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                
+
+            </fieldset>
+            <input type="submit" value="Avaliate" class="submitBtn">
+
+        </form>
+    
+
+  </main>
+  
+  <footer>
+    <p>&copy; <span id="year"></span> Jonathan de Almeida -  Brazil </p>
+    <img id="flag" src="images/brazil-flag.png" alt="flag-brazil">
+    <span id="modify"></span>
+  </footer>
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/dark-mode.js"></script>
+  <script src="scripts/menu-hamburger.js"></script>
+  <script src="scripts/visitors.js"></script>
+</body>
+
+</html>
