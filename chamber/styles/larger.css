@@ -143,11 +143,14 @@
         width: 100%;
     
       }
+
     
       .images img{
         margin-bottom: 5%;
     
       }
+      img:hover {box-shadow: 0 0 50px #f8f8f8;}
+/* rounded corners - boxmodel */
 
       .joinpage{
 
