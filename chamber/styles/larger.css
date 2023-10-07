@@ -161,6 +161,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
 
+
+    
+    form input.submitBtn:hover{
+
+        background-color: #002333;
+            color:white ;
+        }
 }

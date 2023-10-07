@@ -626,11 +626,7 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
-form input.submitBtn:hover{
 
-background-color: #002333;
-    color:white ;
-}
 
 form label.top input:required {
     border-left: red solid 6px;
@@ -706,9 +702,7 @@ form label.sbs{
     font-weight: 500;
     transition: 0.2s ease;
 }
-.subscribe-button:hover {
-    background: #ff4d4d;
-}
+
 .ribbon-wrap {
     width: 150px;
     height: 150px;
@@ -756,6 +750,18 @@ fieldset div{
 
 #description{
     height: 100px
+}
+
+.thankyou{
+    width: 100%;
+    height: 400px;
+    background-color: #295288;
+}
+.thankyou h1{
+    padding-top: 10%;
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
 }
 
 
