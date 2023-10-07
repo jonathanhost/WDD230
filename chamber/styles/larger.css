@@ -172,4 +172,9 @@
         background-color: #002333;
             color:white ;
         }
+
+        #description{
+            border-radius: 4px;
+           width: 100%;
+        }
 }
