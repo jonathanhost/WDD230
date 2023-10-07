@@ -148,7 +148,19 @@
         margin-bottom: 5%;
     
       }
+
+      .joinpage{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     
-   
+      .plans{
+        grid-column: 2/4;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
 
 }
