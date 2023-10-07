@@ -565,13 +565,16 @@ footer img{
 
 
 :root{
-    --main-color: white;
+    --main-color: #1B263B;
   --display: block;
   --second-color: #445ba9;
 }
 
 form{
-    padding-left: 5%;
+   
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 5%;
     grid-column: 1;
 }
 
@@ -617,11 +620,12 @@ form input.submitBtn{
     margin-left: 20%;
     border: none;
     background-color: var(--main-color);
-    color: #002333;
+    color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
-    width: 96%;
+    width: 100%;
+    height: 70px;
     max-width: 20rem;
 }
 
@@ -731,7 +735,7 @@ form label.sbs{
 }
 
 fieldset legend{
-    color: white;
+    color: #1B263B;
 }
 
 fieldset div{
@@ -762,6 +766,13 @@ fieldset div{
     text-align: center;
     width: 100%;
 }
+
+figcaption{
+    padding-bottom: 10px;
+    font-size:x-large
+}
+
+
 
 
 
