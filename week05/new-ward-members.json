@@ -1,0 +1,23 @@
+{
+    "FamilyName" : "Madrigal",
+    "MovedDate" : "10/10/2023",
+    "Members" : 3,
+    "VisitedByBishop" : true,
+    "members" : [
+      {
+        "name" : "Father Man",
+        "gender" : "male",
+        "birthdate" : "10/08/1990"
+      },
+      {
+        "name" : "Mother Woman",
+        "gender" :"famale",
+        "birthdate" : "04/10/1991"
+      },
+      {
+        "name" : "Baby boy",
+        "gender" : "male",
+        "birthdate" : "01/03/2020"
+      }
+    ]
+  }
