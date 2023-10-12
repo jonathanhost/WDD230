@@ -1,7 +1,7 @@
 {
     "weeks": [
       {
-        "week": "Week 1",
+        "week": "Week 01",
         "links": [
           {
             "url":"https://jonathanhost.github.io/wdd230/week01/chamber-site-plan.html",
@@ -9,7 +9,7 @@
           }
         ]
       }, {
-        "week": "Week 2",
+        "week": "Week 02",
         "links": [
           {
             "url":"https://jonathanhost.github.io/wdd230/week02/design.html",
@@ -29,7 +29,7 @@
           }
         ]
       }, {
-        "week": "Week 3",
+        "week": "Week 03",
         "links": [
           {
             "url":"https://jonathanhost.github.io/wdd230/week03/images/landscape.webp",
@@ -53,7 +53,7 @@
           }
         ]
       }, {
-        "week": "Week 4",
+        "week": "Week 04",
         "links": [
           {
             "url":"https://codepen.io/jonathanhost/pen/NWeLvjo",
@@ -61,7 +61,7 @@
           }
         ]
       }, {
-        "week": "Week 5",
+        "week": "Week 05",
         "links": [
           {
             "url":"https://codepen.io/jonathanhost/pen/poqGdmP",
