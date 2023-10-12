@@ -214,8 +214,15 @@ img {
 
 #weather-icon{
     width:50px;
+    margin-bottom: -2%;
 }
 
+.weather{
+    margin-top: 0.5%;
+    margin-right: 10%;
+
+    
+  }
 
 
 
