@@ -1,0 +1,85 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week01/chamber-site-plan.html",
+            "title":"Project Milestone"
+          }
+        ]
+      }, {
+        "week": "Week 2",
+        "links": [
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week02/design.html",
+            "title":"Design"
+          },
+          {
+            "url":"https://codepen.io/jonathanhost/pen/poqdjgP",
+            "title":"Hamburguer Menu"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week02/bom.html",
+            "title":"BOM"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/chamber/",
+            "title":"Chamber Home"
+          }
+        ]
+      }, {
+        "week": "Week 3",
+        "links": [
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week03/images/landscape.webp",
+            "title":"WebP"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week03/lazyload.html",
+            "title":"LazyLoad"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week03/reponsive-images.html",
+            "title":"Responsive Image"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week03/bom.html",
+            "title":"WebStorage"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/chamber/discover.html",
+            "title":"Chamber Discovery"
+          }
+        ]
+      }, {
+        "week": "Week 4",
+        "links": [
+          {
+            "url":"https://codepen.io/jonathanhost/pen/NWeLvjo",
+            "title":"Pseudo Class"
+          }
+        ]
+      }, {
+        "week": "Week 5",
+        "links": [
+          {
+            "url":"https://codepen.io/jonathanhost/pen/poqGdmP",
+            "title":"Pseudo Elements"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week05/new-ward-members.json",
+            "title":"Json"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week05/prophets.html",
+            "title":"Prophets"
+          },
+          {
+            "url":"https://jonathanhost.github.io/wdd230/week05/weather.html",
+            "title":"Weather"
+          }
+        ]
+      } 
+    ]
+}
