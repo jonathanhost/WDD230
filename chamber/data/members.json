@@ -5,43 +5,43 @@
         "address":"123 Flower Street, Center, Florianópolis",
         "website":"www.florishopfloripa.com",
         "phone": "(48) 5555-1234",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/florishop.png"
       }, {
         "name": "WaveGear Surf Shop",
         "address":"456 Wave Avenue, Joaquina Beach, Florianópolis",
         "website":"www.wavegearfloripa.com",
         "phone": "(48) 5555-5678",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/wavegear.png"
       },{
         "name": "FloriBooks Bookstore",
         "address":"789 Book Street, Lagoa da Conceição, Florianópolis",
         "website":"www.floribooks.com",
         "phone": "(48) 5555-9876",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/floribooks.png"
       },{
         "name": "EcoFresh Market",
         "address":"321 Sustainable Road, Campeche, Florianópolis",
         "website":"www.ecofreshfloripa.com",
         "phone": "(48) 5555-5432",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/ecofresh.png"
       },{
         "name": "BellaBites Bakery",
         "address":"234 Flavor Street, Santo Antônio de Lisboa, Florianópolis",
         "website":"www.bellabitesfloripa.com",
         "phone": "(48) 5555-8765",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/bellabiter.png"
       },{
         "name": "TechTrends Electronics",
         "address":"567 Innovation Avenue, Sapiens Parque, Florianópolis",
         "website":"www.techtrendsfloripa.com",
         "phone": "(48) 5555-2345",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/techtrends.png"
       },{
         "name": "FloriArt Crafts",
         "address":"432 Color Street, Historic Center, Florianópolis",
         "website":"www.floriartcrafts.com",
         "phone": "(48) 5555-7654",
-        "logo": ""
+        "logo": "https://jonathanhost.github.io/wdd230/chamber/images/floriart.png"
       }
         
       ]
