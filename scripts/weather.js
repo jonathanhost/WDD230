@@ -21,10 +21,12 @@ async function apiFetch() {
 }
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F - ${data.weather[0].description}`;
+    image = document.createElement('img');
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute('src', `${iconsrc}`);
-    weatherIcon.setAttribute('alt', `${desc}`);
+    image.setAttribute('src', `${iconsrc}`);
+    image.setAttribute('alt', `${desc}`);
+    weatherIcon.appendChild(image);
   }
 apiFetch();
 
