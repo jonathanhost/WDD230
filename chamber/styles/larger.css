@@ -177,4 +177,21 @@
             border-radius: 4px;
            width: 100%;
         }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+            grid-gap: 5px;
+           
+            align-items: center;
+        }
+        
+        .grid section {
+           margin-left: 2%;
+           margin-bottom: 3%;
+           width:900px;
+            color: #002333;
+            text-align: center;
+        }
 }

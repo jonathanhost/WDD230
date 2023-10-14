@@ -2,39 +2,60 @@ const baseURL = "https://jonathanhost.github.io/wdd230/";
 
 const membersLink = "https://jonathanhost.github.io/wdd230/chamber/data/members.json";
 
-const cardSection = document.querySelector('.cards');
+const cardSection = document.querySelector('.grid');
 
 async function getMembers() {
     const response = await fetch(membersLink);
     const data = await response.json();
-    console.log(data)
-    displayMembers(data.weeks);
+    console.log(data.members)
+    displayMembers(data.members);
   }
 
 
-  function displayLinks(weeks) {
+  function displayMembers(members) {
 
-    weeks.forEach(link => {
-        const li = document.createElement('li');
-        const links = link.links;
+    members.forEach(member => {
+        const div = document.createElement('section');
+        const img = document.createElement('img');
+        const address = document.createElement('h3');
+        const phone = document.createElement('h4');
+        const website = document.createElement('a');
+        img.setAttribute('src', `${member.logo}`);
+        img.setAttribute('alt', `${member.name} Logo`);
+        address.innerHTML =`${member.address}`
+        phone.innerHTML =  `${member.phone}`
+        website.innerHTML = `${member.website}`
+        website.setAttribute('href', `${member.website}`);
+        div.appendChild(img)
+        div.appendChild(address)
+        div.appendChild(phone)
+        div.appendChild(website)
+        cardSection.appendChild(div)
 
-        li.innerHTML = `${link.week}: `
-        links.forEach(url => {
-            const a = document.createElement('a'); 
-            a.innerHTML = ` ${url.title} `
-            a.setAttribute('href', `${url.url}`);
-            console.log(url);
-            li.appendChild(a);
-
-        });
-
-
-        ul.appendChild(li)
+      
         
         
     });
 
   }
-
+  const gridbutton = document.querySelector("#grid");
+  const listbutton = document.querySelector("#list");
+  const display = document.querySelector("article");
+  
+  // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+  
+  gridbutton.addEventListener("click", () => {
+    // example using arrow function
+    display.classList.add("grid");
+    display.classList.remove("list");
+  });
+  
+  listbutton.addEventListener("click", showList); // example using defined function
+  
+  function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+  }
+  
   
   getMembers();
