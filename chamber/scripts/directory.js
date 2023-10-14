@@ -19,17 +19,20 @@ async function getMembers() {
         const img = document.createElement('img');
         const address = document.createElement('h3');
         const phone = document.createElement('h4');
+        const level = document.createElement('p');
         const website = document.createElement('a');
         img.setAttribute('src', `${member.logo}`);
         img.setAttribute('alt', `${member.name} Logo`);
         address.innerHTML =`${member.address}`
         phone.innerHTML =  `${member.phone}`
         website.innerHTML = `${member.website}`
+        level.innerHTML = `${member.level}`
         website.setAttribute('href', `${member.website}`);
         div.appendChild(img)
         div.appendChild(address)
         div.appendChild(phone)
         div.appendChild(website)
+        div.appendChild(level)
         cardSection.appendChild(div)
 
       

@@ -194,4 +194,8 @@
             color: #002333;
             text-align: center;
         }
+        section a {
+            font-size: 1.5rem;
+           
+        }
 }

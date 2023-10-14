@@ -811,6 +811,7 @@ section {
 
 .grid section > * {
 	margin: 0.1rem;
+    
 }
 
 .grid h3 {
@@ -860,7 +861,7 @@ section p {
 
 section a {
 	font-family: "Roboto", Arial, sans-serif;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: navy;
 	letter-spacing: 1.1pt;
 }
@@ -872,6 +873,15 @@ section a {
 .menu{
     margin: 3%;
     text-align: center;
+}
+
+#list{
+    width: 130px;
+    height: 80px;
+}
+#grid{
+    width: 130px;
+    height: 80px;
 }
 
 
