@@ -22,7 +22,6 @@ async function getLinks() {
             const a = document.createElement('a'); 
             a.innerHTML = ` ${url.title} `
             a.setAttribute('href', `${url.url}`);
-            console.log(url);
             li.appendChild(a);
 
         });

@@ -6,8 +6,7 @@ const rangevalue = document.getElementById("rangevalue");
 const range = document.getElementById("r");
 
 // RANGE event listener
-range.addEventListener('change', displayRatingValue);
-range.addEventListener('input', displayRatingValue);
+
 
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;
@@ -19,7 +18,6 @@ const kp1 = document.querySelector("#password");
 const kp2 = document.querySelector("#passwordrept");
 const message = document.querySelector("#formmessage");
 
-kp2.addEventListener("focusout", checkSame);
 
 // This should be refactored.
 function checkSame() {
