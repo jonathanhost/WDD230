@@ -28,10 +28,10 @@
         <button id="menu"></button>
         <ul class="navigation">
           <li><a href="./index.html" title="Home" class="active">Home</a></li>
-          <li><a href="./discover.html" title="Discover">Discover</a></li>
-          <li><a href="#" title="Service">Services</a></li>
-          <li><a href="#" title="History">Products</a></li>
-          <li><a href="#" title="Contact">Contact Us</a></li>
+          <li><a href="./discover.html" title="Discover" >Discover</a></li>
+          <li><a href="./directory.html" title="Service">Services</a></li>
+          <li><a href="./discover.html" title="History">Products</a></li>
+          <li><a href="./join.html" title="Contact">Contact Us</a></li>
         </ul>
       </nav>   
       </header>
@@ -70,16 +70,11 @@
         <div class="card">
 
           <h2>Florianopólis</h2>
-          <div class="sky">
-            <div class="sun"></div>
-            <div class="cloud">
-                <div class="circle-small"></div>
-                <div class="circle-tall"></div>
-                <div class="circle-medium"></div>
-            </div>
+        <div class="weather"> 
+          <div id="weather-icon"></div>
+          <span id="current-temp"></span>
+        
         </div>
-          <h3>Cloudy <span>Wind 10km/h <span class="dot">•</span> Precip 0%</span></h3>
-          <h2 id="temp">26°</h2>
           
           <table>
               <tr>
@@ -165,5 +160,6 @@
         </footer>
         <script src="scripts/getDates.js"></script>
         <script src="scripts/menu-hamburger.js"></script>     
+        <script src="scripts/weather.js"></script> 
 </body>
 </html>

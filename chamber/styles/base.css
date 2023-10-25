@@ -629,7 +629,10 @@ form input.submitBtn{
     max-width: 20rem;
 }
 
-
+#form-title{
+    color:#1B263B;
+    font-size: 80px
+}
 
 form label.top input:required {
     border-left: red solid 6px;
@@ -882,6 +885,14 @@ section a {
 #grid{
     width: 130px;
     height: 80px;
+}
+
+#weather-icon img{
+    width: 100px;
+}
+#current-temp p{
+font-size:x-large;
+padding-bottom: 2%;
 }
 
 
